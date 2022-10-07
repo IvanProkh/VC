@@ -11,7 +11,8 @@ h3 {
 a {
   text-decoration: none;
 }
-.main_container {
+
+.main__container {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
@@ -42,7 +43,7 @@ a {
 /* about me section */
 
 .about_me_section {
-  margin: 30px 0 40px 0;
+  margin: 40px 0 40px 0;
 
   background: #1e2939;
   padding: 15px 0;
@@ -65,10 +66,11 @@ a {
   font-size: 25px;
   line-height: 17px;
   color: #fff;
-  margin: 40px 0 70px 0;
+  margin: 40px 0 55px 0;
 
   text-align: center;
 }
+
 .summary {
   margin-left: 100px;
   color: #fff;
@@ -87,7 +89,7 @@ a {
 /* my projects section */
 
 .my_projects {
-  margin-bottom: 50px;
+  margin-bottom: 16px;
 }
 
 .my_projects_list {
@@ -101,11 +103,14 @@ a {
 
 .my_projects_link {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000;
+
+  text-decoration: underline;
 }
+
 .my_projects_text {
   font-style: normal;
   font-weight: normal;
@@ -117,10 +122,11 @@ a {
 
 .my_projects_bracket {
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #000;
+  color: #595959;
+  margin: 10px 0;
 }
 
 /* my_work_experience */
